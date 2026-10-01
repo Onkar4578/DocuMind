@@ -1,0 +1,33 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+
+# Environment / Secrets
+.env
+*.env
+backend/.env
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# Runtime data & Local Storage
+backend/qdrant_storage/
+backend/uploaded_pdfs/
+*.sqlite3
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
